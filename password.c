@@ -20,6 +20,8 @@ int main(int argc, char **argv) {
     scanf("%64s", buffer);
     if (getPass(buffer)) {
         printf("Access granted\n");
+    } else {
+        printf("Password wrong");
     }
     return 0;
 }
